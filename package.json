@@ -1,0 +1,29 @@
+{
+  "name": "startup",
+  "version": "0.0.1",
+  "description": "startup",
+  "author": "Tania",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtv1301/Startup"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch-path": "^0.1.0"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp-uglifycss": "^1.0.6"
+  }
+}
