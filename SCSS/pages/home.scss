@@ -14,26 +14,25 @@ body {
   font-size: 14px;
   text-decoration: none;
   color: black;
-  //margin-left: 50px;
-}
+  }
 .style-icon {
-  margin-left: 150px;
   padding-top: 20px;
 }
+
 .tittle-name {
-  font-size: 75px;
+  font-size: 70px;
   font-family: Myriad Pro;
+  font-weight: 500;
   color: black;
-  margin-left: 150px;
-  line-height: 10px;
-  margin-top: 150px;
+  line-height: 1px;
+  margin-top: 120px;
 }
 .tittle-text {
   font-size: 24px;
   font-family: Myriad Pro;
   color: white;
-  margin-left: 150px;
-}
+  margin-top: 50px;
+  }
 .button-for-header {
   font-size: 10px;
   color: white;
@@ -70,7 +69,6 @@ body {
 }
 .hero-nav {
   display: inline-block;
-  //margin-left: 40px;
 }
 .hero-nav-logo {
   display: inline-block;
