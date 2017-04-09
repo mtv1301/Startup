@@ -12,11 +12,11 @@ body {
   height: 100vh;
 }
 
-#first-section-header{
+#first-section-header {
   height: 75%;
 }
 
-#first-section-footer{
+#first-section-footer {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -39,6 +39,8 @@ body {
   color: #48596b;
   text-decoration: none;
   height: 60px;
+  width: 500px;
+  margin-left: 0 !important;
 }
 
 .tittle-name {
@@ -48,6 +50,7 @@ body {
   color: black;
   line-height: 80px;
 }
+
 .padding-tittle-name {
   margin-top: 100px;
 }
@@ -108,6 +111,7 @@ a:-webkit-any-link {
 .hero-nav-img {
   margin-top: 15px;
 }
+
 @media screen and (max-width: 960px) {
   .tittle-name {
     font-size: 45px;
@@ -117,6 +121,7 @@ a:-webkit-any-link {
     line-height: 50px;
   }
 }
+
 @media screen and (max-width: 960px) {
   .tittle-text {
     font-size: 15px;
@@ -125,17 +130,88 @@ a:-webkit-any-link {
     text-align: center;
   }
 }
+
 @media screen and (max-width: 960px) {
   .padding-tittle-name {
     margin-top: 50px;
   }
 }
+
 @media screen and (max-width: 960px) {
   .video-with-button {
     margin: 0 !important;
     text-align: center;
   }
 }
+
 footer {
   padding-bottom: 50px;
 }
+
+li > a:hover {
+  color: deepskyblue;
+}
+
+.hamburger {
+  color: black;
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .hamburger {
+    display: block;
+    margin-right: 40px;
+    margin-top: 15px;
+  }
+}
+
+.list-unstyled {
+  display: block;
+}
+
+@media screen and (max-width: 990px) {
+  .list-unstyled {
+    display: none;
+  }
+}
+
+.style-menu-small {
+  height: 100%;
+  width: 500px;
+  background: #f1f1f1;
+  text-align: center;
+  border: #dddddd 1px solid;
+  border-radius: 10px;
+  margin: -500px;
+  margin-left: 40%;
+}
+
+.style-menu-small li {
+  display: block;
+  padding: 5px 0 5px 0;
+  border-bottom: #dddddd 1px solid;
+  border-radius: 10px;
+}
+
+.style-menu-small li:hover {
+  display: block;
+  background: #ffffff;
+  border-bottom: #dddddd 1px solid;
+}
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+@media screen and (max-width: 990px) {
+  .style-menu-small {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
