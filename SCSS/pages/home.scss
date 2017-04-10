@@ -179,13 +179,14 @@ li > a:hover {
 
 .style-menu-small {
   height: 100%;
-  width: 500px;
+  width: 100%;
   background: #f1f1f1;
   text-align: center;
   border: #dddddd 1px solid;
   border-radius: 10px;
   margin: -500px;
-  margin-left: 40%;
+  margin-left: 1px;
+  display: none;
 }
 
 .style-menu-small li {
@@ -206,12 +207,5 @@ li > a:hover {
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-}
-
-@media screen and (max-width: 990px) {
-  .style-menu-small {
-    width: 100%;
-    margin-left: 0;
-  }
 }
 
