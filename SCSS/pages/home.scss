@@ -79,6 +79,10 @@ body {
   margin-left: 10px;
   margin-bottom: 40px;
 }
+.button-for-header:hover {
+  color:  #1E90FF;
+  background: white;
+}
 
 .video-style {
   color: white !important;
@@ -176,6 +180,11 @@ li > a:hover {
     display: none;
   }
 }
+@media screen and (max-width: 990px) {
+  #two-menu {
+    display: none;
+  }
+}
 
 .style-menu-small {
   height: 100%;
@@ -201,11 +210,52 @@ li > a:hover {
   background: #ffffff;
   border-bottom: #dddddd 1px solid;
 }
+
 .blur {
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
+}
+.two-section {
+  padding: 60px 0 50px 0;
+
+}
+.indentation {
+  padding-top: 40px;
+
+}
+.bold-font {
+  font-weight: 600;
+}
+.bold{
+  font-weight: 800;
+}
+.button-for-header-white {
+  font-size: 11px;
+  color:  #00BFFF;
+  background: white;
+  border-radius: 4px;
+  border-style: solid;
+  border-color:  #00BFFF;
+  width: 135px;
+  height: 35px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+.button-for-header-white:hover {
+  color:  white;
+  background: #00BFFF;
+}
+#square {
+  width: 1000px;
+  height: 7px;
+  border: 1px solid;
+  border-color:  #DCDCDC;
 }
 
