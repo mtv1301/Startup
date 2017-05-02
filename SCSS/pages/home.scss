@@ -79,8 +79,9 @@ body {
   margin-left: 10px;
   margin-bottom: 40px;
 }
+
 .button-for-header:hover {
-  color:  #1E90FF;
+  color: #1E90FF;
   background: white;
 }
 
@@ -180,6 +181,7 @@ li > a:hover {
     display: none;
   }
 }
+
 @media screen and (max-width: 990px) {
   #two-menu {
     display: none;
@@ -218,29 +220,34 @@ li > a:hover {
   -ms-filter: blur(5px);
   filter: blur(5px);
 }
+
 .two-section {
   padding: 60px 0 50px 0;
 
 }
+
 .indentation {
   padding-top: 20px;
 
 }
+
 .bold-font {
   font-weight: 600;
   padding-top: 15px;
   padding-left: 15px;
 }
-.bold{
+
+.bold {
   font-weight: 800;
 }
+
 .button-for-header-white {
   font-size: 11px;
-  color:  #00BFFF;
+  color: #00BFFF;
   background: white;
   border-radius: 4px;
   border-style: solid;
-  border-color:  #00BFFF;
+  border-color: #00BFFF;
   width: 135px;
   height: 35px;
   cursor: pointer;
@@ -249,16 +256,135 @@ li > a:hover {
   text-transform: uppercase;
   margin-top: 25px;
 }
+
 .button-for-header-white:hover {
-  color:  white;
+  color: white;
   background: #00BFFF;
 }
+
 #square {
   width: 1000px;
   height: 7px;
   border: 1px solid;
-  border-color:  #DCDCDC;
+  border-color: #DCDCDC;
 }
+
 .margin-off {
   margin-left: -15px !important;
+}
+
+.bg-for-section {
+  background: url("../../img/3_section_picture.jpg") no-repeat center;
+  background-size: 900px;
+  height: 100vh;
+}
+
+.message-img-1 {
+  margin-top: 100px;
+}
+
+.style-for-tittle {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  line-height: 80px;
+}
+
+.style-for-text {
+  font-family: Raleway;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 50px;
+
+}
+
+.bg-color {
+  background: #FAF9F7;
+  margin-top: -230px;
+}
+
+.img-4-section {
+  width: 400px;
+  height: 380px;
+  margin-bottom: 60px;
+}
+
+.width_picture {
+  width: 1000px;
+}
+
+#myProgress {
+  background-color: #F5F5F5;
+  border: 1px solid #DCDCDC;
+  height: 35px;
+  margin-top: 20px;
+  width: 400px;
+  margin-bottom: -10px;
+  margin-left: 15px;
+}
+
+#myBar1 {
+  @extend .progress_bar;
+  width: 70%;
+  background-color: #87CEFA;
+}
+
+#myBar2 {
+  @extend .progress_bar;
+  width: 85%;
+  background-color: #87CEEB;
+}
+
+#myBar3 {
+  @extend .progress_bar;
+  width: 60%;
+  background-color: #00BFFF;
+}
+
+#myBar4 {
+  @extend .progress_bar;
+  width: 70%;
+  background-color: #1E90FF;
+}
+
+.progress_bar {
+  height: 35px;
+  text-align: left;
+  line-height: 35px;
+  color: white;
+  padding-left: 20px;
+  margin-top: -21px;
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 768px) {
+  .img-4-section {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .width_picture {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .width_picture {
+    width: 800px;
+    margin-left: 50px;
+  }
+
+}
+@media screen and (max-width: 1350px) {
+  #myProgress {
+    //width: 1000px;
+  }
+}
+.size-img {
+  width: 160px !important;
+  height: 120px;
+  padding: 0 !important;
+  margin: 0 !important;
 }

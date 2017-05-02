@@ -25,4 +25,5 @@ $(document).ready(function () {
     $(".cross").click(function () {
         $( "header" ).removeClass( "blur" );
     });
+
 });
