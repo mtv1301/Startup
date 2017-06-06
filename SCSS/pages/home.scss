@@ -388,3 +388,33 @@ li > a:hover {
   padding: 0 !important;
   margin: 0 !important;
 }
+.section_6_picture_{
+  background: url("../../img/section_6_picture_.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  }
+.text-color-section_6 {
+  color: white;
+  font-size: 25px;
+  font-family: lucida sans unicode;
+  text-align: center;
+  padding-top: 25px;
+}
+.color-for-text-section_6 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 25px;
+  display: block;
+  padding-bottom: 20px;
+}
+.btn-section-6 {
+  background: transparent;
+  border-color: white;
+  color: white;
+}
+.btn-section-6:hover {
+  color: black;
+  background: white;
+}
