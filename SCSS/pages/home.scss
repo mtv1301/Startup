@@ -409,6 +409,11 @@ li > a:hover {
   display: block;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  .color-for-text-section_6 {
+    font-size: 12px;
+  }
+}
 .btn-section-6 {
   background: transparent;
   border-color: white;
@@ -417,4 +422,21 @@ li > a:hover {
 .btn-section-6:hover {
   color: black;
   background: white;
+}
+.picture_section_7 {
+  text-align: center;
+
+}
+
+.style-for-name {
+  font-size: 15px;
+  font-family: century gothic;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.style-for-work {
+  font-size: 10px;
+  font-family: century gothic;
+  padding-top: -5px;
+  color: gray;
 }
