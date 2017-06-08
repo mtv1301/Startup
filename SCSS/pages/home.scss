@@ -440,3 +440,9 @@ li > a:hover {
   padding-top: -5px;
   color: gray;
 }
+.hover_picture:hover {
+  border: 0.1rem solid deepskyblue;
+  //color: deepskyblue;
+  background: url(../../img/section_7_picture_1_1.jpg);
+  display: block;
+  }
