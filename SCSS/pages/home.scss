@@ -466,13 +466,74 @@ li > a:hover {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
+
 .icon-white:hover {
   font-size: 28px;
 }
-//.hover_img_2:hover {
-//  opacity: 0.5;
-//}
-//.hover_picture {
-//  background: deepskyblue;
-//}
+
+.section_7_picture_ {
+  background: aliceblue;
+}
+
+.text-color-section_7 {
+  font-size: 23px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.color-for-text-section_7 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.style_price {
+  width: 100px;
+
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+.style_price:hover {
+  background: gainsboro;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  .btn-section-7 {
+    border-color: #00BFFF;
+    background: #00BFFF;
+    color: white;
+  }
+}
+
+.btn-section-7 {
+  background: transparent;
+  border-color: #00BFFF;
+  color: #00BFFF;
+  border: solid 2px;
+}
+
+.tittle-price {
+  padding-top: 35px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.tittle-support {
+  font-size: 11px;
+  color: grey;
+}
+
+.padding-number {
+  margin-bottom: -15px;
+}
+
+.style-for-number {
+  font-size: 50px;
+}
+
+.style-for-mouth {
+  font-size: 11px;
+  color: grey;
+}
 

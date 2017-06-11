@@ -34,9 +34,6 @@ $(document).ready(function () {
     });
     $(".picture_1_1").mouseout(function () {
         $(".picture_1_1").hide();
-        $(".picture_2_2").hide();
-        $(".picture_3_3").hide();
-        $(".picture_4_4").hide();
         $(".hover_img").show();
         $(".icon-white").hide();
     });
