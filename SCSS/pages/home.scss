@@ -490,7 +490,6 @@ li > a:hover {
 }
 
 .style_price {
-  //width: 200px;
   text-align: center;
   padding-bottom: 40px;
 
@@ -537,4 +536,42 @@ li > a:hover {
   font-size: 11px;
   color: grey;
 }
-
+.picture_8 {
+  background: url("../../img/section_8.jpg") no-repeat center;
+  width: 85%;
+  height: 300px;
+  margin-top: -15px;
+}
+@media screen and (max-width: 768px) {
+  .picture_8 {
+    background: url("../../img/section_8_1.jpg") no-repeat center;
+  }
+  .author-say {
+    text-align: center;
+  }
+  .work-place {
+    text-align: center;
+  }
+  .author-name {
+    text-align: center;
+  }
+  .line-style {
+    text-align: center;
+  }
+}
+.author-say {
+  padding-top: 130px;
+  font-size: 11px;
+}
+.work-place {
+  font-size: 11px;
+}
+.author-name {
+  font-size: 13px;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 2px;
+}
+.line-style {
+  color: #1E90FF;
+}
