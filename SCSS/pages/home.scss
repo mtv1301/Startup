@@ -563,6 +563,7 @@ li > a:hover {
   padding-top: 130px;
   font-size: 11px;
 }
+
 .work-place {
   font-size: 11px;
 }
@@ -574,4 +575,28 @@ li > a:hover {
 }
 .line-style {
   color: #1E90FF;
+}
+@media screen and (max-width: 1059px) {
+  .author-say {
+    padding-top: 120px;
+  }
+  .author-name {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .line-style {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .author-say {
+    padding-top: 300px;
+  }
+}
+.section_9 {
+  background: rgb(43, 161, 236);
+  height: 250px;
+}
+.tittle-sec9 {
+
 }
