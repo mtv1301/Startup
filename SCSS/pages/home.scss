@@ -227,7 +227,8 @@ li > a:hover {
 }
 
 .indentation {
-  padding-top: 20px;
+  padding-top: 10px;
+  font-size: 11px;
 
 }
 
@@ -354,7 +355,7 @@ li > a:hover {
   line-height: 35px;
   color: white;
   padding-left: 20px;
-  margin-top: -21px;
+  margin-top: -11px;
   margin-left: -15px;
 }
 
@@ -387,8 +388,17 @@ li > a:hover {
 .size-img {
   width: 160px !important;
   height: 120px;
-  padding: 0 !important;
-  margin: 0 !important;
+
+}
+@media screen and (max-width: 768px) {
+  .text-st {
+    text-align: center;
+  }
+}
+
+.st-for-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section_6_picture_ {
