@@ -6,23 +6,25 @@ body {
 }
 
 .picture-header {
-  background: url("../../img/picture_header.jpg") no-repeat center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
+
 
 }
 
 #first-section-header {
-  height: 75%;
+  position: relative;
+  z-index: 100;
+  min-height: 100vh;
+  background-position: 50% 50%;
+  background-size: cover;
+  overflow: hidden;
+  max-width: 100%;
+
 }
 
 #first-section-footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  //margin-right: 0;
-  //margin-left: 0;
 }
 
 .style-link {
@@ -223,14 +225,17 @@ li > a:hover {
 }
 
 .two-section {
-  padding: 60px 0 50px 0;
+  padding: 30px 0 50px 0;
+
+}
+.margin-off {
+  margin-left: 15px;
 
 }
 
 .indentation {
   padding-top: 10px;
   font-size: 11px;
-
 }
 
 .bold-font {
@@ -264,21 +269,9 @@ li > a:hover {
   background: #00BFFF;
 }
 
-#square {
-  width: 1000px;
-  height: 7px;
-  border: 1px solid;
-  border-color: #DCDCDC;
-}
-
-.margin-off {
-  margin-left: -15px !important;
-}
 
 .bg-for-section {
-  //background: url("../../img/3_section_picture.jpg") no-repeat center;
   background-size: 900px;
-  height: 30vh;
 }
 
 .message-img-1 {
@@ -297,13 +290,11 @@ li > a:hover {
   font-family: Raleway;
   font-size: 15px;
   color: black;
-  margin-bottom: 50px;
-
 }
 
 .bg-color {
   background: #FAF9F7;
-  margin-top: -230px;
+  margin-top: 10px;
 }
 
 .img-4-section {
@@ -357,7 +348,7 @@ li > a:hover {
   color: white;
   padding-left: 20px;
   margin-top: -11px;
-  margin-left: -15px;
+  //margin-left: -15px;
 }
 
 @media screen and (max-width: 768px) {
