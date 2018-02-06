@@ -6,8 +6,7 @@ body {
 }
 
 .picture-header {
-
-
+  background: url("../../img/picture_header.jpg") no-repeat center;
 }
 
 #first-section-header {
@@ -224,10 +223,14 @@ li > a:hover {
   filter: blur(5px);
 }
 
-.two-section {
+.section_2 {
   padding: 30px 0 50px 0;
-
 }
+
+.section-overflow{
+  overflow:hidden;
+}
+
 .margin-off {
   margin-left: 15px;
 
@@ -393,9 +396,8 @@ li > a:hover {
   padding-bottom: 20px;
 }
 
-.section_6_picture_ {
-  background: url("../../img/section_6_picture_.jpg") no-repeat center;
-  background-size: cover;
+.section_5 {
+  background: url("../../img/section_5_picture.jpg") no-repeat center;
   width: 100%;
   height: 350px;
 }
@@ -432,6 +434,11 @@ li > a:hover {
 .btn-section-6:hover {
   color: black;
   background: white;
+}
+
+.section_6{
+  //padding-top: 65px;
+  //padding-bottom: 55px
 }
 
 .picture_section_7 {
@@ -473,7 +480,7 @@ li > a:hover {
   font-size: 28px;
 }
 
-.section_7_picture_ {
+.section_7 {
   background: aliceblue;
   padding-bottom: 40px;
   margin-bottom: 40px;
@@ -498,6 +505,7 @@ li > a:hover {
 }
 
 .style_price:hover {
+  cursor: pointer;
   background: gainsboro;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 
@@ -528,7 +536,7 @@ li > a:hover {
 }
 
 .padding-number {
-  margin-bottom: -15px;
+  margin-bottom: -20px;
 }
 
 .style-for-number {
@@ -548,7 +556,7 @@ li > a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .height-sec8 {
+  .section_8 {
     height: 460px;
   }
 }
